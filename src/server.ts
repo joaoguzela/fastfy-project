@@ -10,7 +10,7 @@ app.register(transactionRoutes, { prefix: 'transactions' })
 
 app
   .listen({
-    port: 3333,
+    port: 10000,
   })
   .then(() => {
     console.log('HTTP Server Running')
