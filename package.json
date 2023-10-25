@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/server.ts",
@@ -20,14 +23,15 @@
     "ts-node": "^10.9.1",
     "tsup": "^7.2.0",
     "tsx": "^3.12.8",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "sqlite3": "^5.1.6"
   },
   "dependencies": {
     "@fastify/cookie": "^9.1.0",
     "dotenv": "^16.3.1",
     "fastify": "^4.22.2",
     "knex": "^2.5.1",
-    "sqlite3": "^5.1.6",
+    "pg": "^8.11.3",
     "zod": "^3.22.2"
   }
 }
